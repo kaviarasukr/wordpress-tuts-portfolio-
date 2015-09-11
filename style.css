@@ -1,7 +1,6 @@
 /*
-Theme Name: LearningWordPress
-Author: LearnWebCode
-Author URI: http://www.youtube.com/user/LearnWebCode
+Theme Name: mywordpress
+Author: kaviarasukr
 Version: 1.0
 */
 
@@ -220,4 +219,34 @@ div.info-box p {
 	border-bottom: 1px solid #DDD;
 	color: #333;
 	cursor: default;
+}
+/* Post Styles */
+.post h2 {
+	margin-bottom: 1px;
+}
+
+p.post-info {
+	font-size: 87%;
+	color: #999;
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+	color: #999;
+}
+/* Image Styles */
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.has-thumbnail {
+	position: relative;
+	padding-left: 200px;
+}
+
+.post-thumbnail {
+	position: absolute;
+	top: 0;
+	left: 0;
 }
