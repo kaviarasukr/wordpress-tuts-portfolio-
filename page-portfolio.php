@@ -1,10 +1,12 @@
-<?php 
+<?php
 
 get_header();
 
 if (have_posts()) :
 	while (have_posts()) : the_post(); ?>
+	
 	<article class="post page">
+		
 		<!-- column-container -->
 		<div class="column-container clearfix">
 			
@@ -19,15 +21,17 @@ if (have_posts()) :
 			</div><!-- /text-column -->
 			
 		</div><!-- /column-container -->
+		
+		
 	</article>
-
+	
 	<?php endwhile;
-
-	else:
-		echo '<p> NO content found </p>';
+	
+	else :
+		echo '<p>No content found</p>';
 	
 	endif;
-		# code...
-
+	
 get_footer();
-?> 
+
+?>
